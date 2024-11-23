@@ -1,0 +1,51 @@
+header{
+    background-color: #3587A4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header h2{
+    font-size: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db902d;
+}
+.log-box{
+    padding: 50px 80px;
+    background-color: #fff6e6;
+    border-radius: 30px;
+    margin: 50px 0;
+}
+.log-box label{
+    display: block;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log-box input{
+    margin-top: 5px;
+    width: 300px;
+    line-height: 30px;
+    border: 5px;
+    padding: 0px 8px;
+}
+.log-box p{
+    color: #626161;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.log-box button{
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    line-height: 30px;
+    background-color: #2dadf1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
